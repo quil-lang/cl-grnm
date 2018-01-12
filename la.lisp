@@ -1,4 +1,4 @@
-(in-package :neldermead)
+(in-package :cl-grnm)
 
 ;; Simple matrix-vector facility. Optimized for staying out of the way.
 (defmacro with-matrix-dimensions (varforms &body body)

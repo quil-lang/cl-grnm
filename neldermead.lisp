@@ -1,4 +1,4 @@
-(in-package :neldermead)
+(in-package :cl-grnm)
 
 (defclass cached-simplex-data ()
   ((pseudopivot	:initform nil)

@@ -1,10 +1,10 @@
 ; -*- lisp -*-
-(defpackage #:neldermead-asd
+(defpackage #:cl-grnm-asd
   (:use :cl :asdf))
 
-(in-package :neldermead-asd)
+(in-package :cl-grnm-asd)
 
-(defsystem :neldermead
+(defsystem :cl-grnm
   :serial t
   :components ((:file "defpackage")
 	       (:file "la")
