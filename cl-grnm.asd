@@ -6,6 +6,8 @@
 
 (defsystem :cl-grnm
   :serial t
+  :version (:read-file-form "VERSION.txt")
+  :author "Rigetti Computing and Mario S. Sommer"
   :components ((:file "defpackage")
 	       (:file "la")
 	       (:file "neldermead")))
