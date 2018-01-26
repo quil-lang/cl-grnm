@@ -30,7 +30,7 @@ and observe the difference in number of function evaluations (the last value ret
 
 (This exercise also serves to illustrate the overall deficiencies of direct search algorithms when applied to higher dimensional problems.)
 
-This software is provided under the MIT license; see COPYING.txt for details.
+This software is provided under the MIT license; see LICENSE.txt for details.
 
 
 ## Usage

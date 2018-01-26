@@ -8,6 +8,8 @@
   :serial t
   :version (:read-file-form "VERSION.txt")
   :author "Rigetti Computing and Mario S. Sommer"
+  :description "Grid Restrained Nelder-Mead, a multivariate rootfinder."
+  :license "MIT (See LICENSE.txt)"
   :components ((:file "defpackage")
 	       (:file "la")
 	       (:file "neldermead")))
